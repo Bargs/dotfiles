@@ -2,6 +2,7 @@ call pathogen#infect()
 call pathogen#helptags()
 syntax on
 filetype plugin indent on
+filetype plugin on
 set number
 set guioptions-=T "remove toolbar
 set guioptions+=b "enable horizontal scrollbar
