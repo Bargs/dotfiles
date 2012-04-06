@@ -10,6 +10,10 @@ set guioptions+=b "enable horizontal scrollbar
 "" Whitespace
 set nowrap
 set backspace=indent,eol,start
+set expandtab "Expand tabs to spaces
+set tabstop=4 "tabs are 4 spaces wide
+set softtabstop=4 "this makes backspace delete all 4 space characters
+set shiftwidth=4 "makes >> and << use 4 spaces as well
 
 "" Searching
 set hlsearch
