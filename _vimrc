@@ -20,6 +20,11 @@ set hlsearch
 set incsearch
 set ignorecase
 
+"" Buffers
+set hidden
+set wildmenu
+set wildmode=longest:full
+
 colorscheme molokai
 if has('gui_running')
 	set guifont=Consolas:h10
