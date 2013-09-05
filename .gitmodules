@@ -13,3 +13,6 @@
 [submodule ".vim/bundle/vim-powerline"]
 	path = .vim/bundle/vim-powerline
 	url = git@github.com:Lokaltog/vim-powerline.git
+[submodule ".vim/bundle/quicktask"]
+	path = .vim/bundle/quicktask
+	url = git@github.com:aaronbieber/quicktask.git
