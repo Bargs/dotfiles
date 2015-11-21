@@ -21,9 +21,9 @@ set number
 set nowrap
 set backspace=indent,eol,start
 set expandtab "Expand tabs to spaces
-set tabstop=4 "tabs are 4 spaces wide
-set softtabstop=4 "this makes backspace delete all 4 space characters
-set shiftwidth=4 "makes >> and << use 4 spaces as well
+set tabstop=2 "tabs are 2 spaces wide
+set softtabstop=2 "this makes backspace delete all 4 space characters
+set shiftwidth=2 "makes >> and << use 4 spaces as well
 set ofu=syntaxcomplete#Complete " Enable Omnicomplete for all languages
 set omnifunc=syntaxcomplete#Complete
 
