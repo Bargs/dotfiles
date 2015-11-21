@@ -1,5 +1,14 @@
-call pathogen#infect()
-call pathogen#helptags()
+call plug#begin('~/.vim/plugged')
+
+Plug 'kien/ctrlp.vim'
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'pangloss/vim-javascript'
+Plug 'rking/ag.vim'
+Plug 'bling/vim-airline'
+Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
+
+call plug#end()
 
 filetype plugin on
 filetype plugin indent on
@@ -48,3 +57,6 @@ inoremap <C-space> <C-x><C-o>
 
 "" Ctrlp variables
 let g:ctrlp_cmd = 'CtrlPMixed'
+
+"" Airline config
+let g:airline_theme = 'badwolf'
