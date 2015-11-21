@@ -54,12 +54,14 @@ endif
 vmap <C-c> "+y
 noremap <C-v> "+gP
 nmap <C-n> :NERDTreeToggle<CR>
+nmap <S-Space> :CtrlPMRU<CR>
 inoremap jk <Esc>
 "" Map Omnicomplete to control-space
 inoremap <C-space> <C-x><C-o>
 
 "" Ctrlp variables
 let g:ctrlp_cmd = 'CtrlPMixed'
+let g:ctrlp_working_path_mode = 'ra'
 
 "" Airline config
 let g:airline_theme = 'badwolf'
