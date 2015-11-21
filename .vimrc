@@ -7,6 +7,8 @@ Plug 'rking/ag.vim'
 Plug 'bling/vim-airline'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
+Plug 'Valloric/YouCompleteMe'
+Plug 'ternjs/tern_for_vim'
 
 call plug#end()
 
@@ -23,6 +25,7 @@ set tabstop=4 "tabs are 4 spaces wide
 set softtabstop=4 "this makes backspace delete all 4 space characters
 set shiftwidth=4 "makes >> and << use 4 spaces as well
 set ofu=syntaxcomplete#Complete " Enable Omnicomplete for all languages
+set omnifunc=syntaxcomplete#Complete
 
 "" Searching
 set hlsearch
